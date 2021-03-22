@@ -1,0 +1,6 @@
+@import "./toolbar-theme.scss";
+
+@mixin custom-components-theme($theme) {
+ @include mat-toolbar-theme($theme);
+}
+

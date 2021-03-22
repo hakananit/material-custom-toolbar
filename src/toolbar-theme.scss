@@ -1,0 +1,20 @@
+@mixin mat-toolbar-theme($theme) {
+  .mat-toolbar {
+    background-color:rgba(239, 241, 241, 0.1)  ;
+    border-radius: 10px;
+   
+  }
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    width: 90vw !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+$navigation-toolbar-theme: (
+  background: mat-color(mat-palette($mat-red,400))
+);
+
+$navigation-button-theme: (
+  background: mat-color(mat-palette($mat-red,400))
+);
